@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Stable vs Unstable Equilibrium Solutions</title>
+        <link rel="stylesheet" href="pages.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <script id="MathJax-script" async
+            src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+        </script>
+        <div class = "drop">
+            <a href = 'Intro.html'><button class = 'mainmenu'>Home Page</button></a>
+        </div>
+    </head>
+    <body>
+        <header>
+            <h1>Stable vs Unstable Equilibrium Solutions</h1>
+        </header>
+        <div class = 'text'>
+            <p1>Given a differential equation, you can find and analyze its' equilibrium solutions. To find the equilibrium solutions, you find what y values make the equation equal to zero. Once you have the specific y-values, you can use a phase line to analyze the y-values' stability. To better determine if the equilibrium solution is stable or unstable, I have provided examples below.</p1><br><br>
+            <p1>Helpful tip: If on the phase line prior to the solution is decreasing and after the solution is increasing, it is unstable (looks like a u). Swap those directions and it would be stable (looks like an upside-down v)</p1>
+        </div>
+        <div class = 'text'>
+            <p1><strong>Steps:</strong><br>1. Evaluate the differential equation to find values that make it equal to zero<br> 2. Once you have found the values, put them on a phase line, each with a value greater and less than next to the solved value on the line<br>3. Determine the whether the neighboring values increase or decrease (positive or negative) by plugging them into the original differential equation<br>4. Make conclusions based off of what the neighboring values do</p1><br><br><br>
+        </div>
+        <div class = 'container'>
+            <p>
+                <strong>Question 1:</strong>
+                 \[dy/dx = y(y+1)(y^2+1)\]
+            </p>
+            <div class = 'but'><button onclick = "document.location='Stability1.jpeg'">Click for Solution</button></div>
+        </div>
+        <div class = 'container'>
+            <p>
+                <strong>Question 2:</strong>
+                 \[dy/dx = y^2 - 9\]
+            </p>
+            <div class = 'but'><button onclick = "document.location='Stability2.jpeg'">Click for Solution</button></div>
+        </div>
+        <div class = 'container'>
+            <p>
+                <strong>Question 3:</strong>
+                 \[dy/dx = y^2 - 9y\]
+            </p>
+            <div class = 'but'><button onclick = "document.location='Stability3.jpeg'">Click for Solution</button></div>
+        </div>
+    </body>
+</html>
