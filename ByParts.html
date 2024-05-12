@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Integration By Parts</title>
+        <link rel="stylesheet" href="pages.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <script id="MathJax-script" async
+            src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+        </script>
+        <div class = "drop">
+            <a href = 'Intro.html'><button class = 'mainmenu'>Home Page</button></a>
+        </div>
+    </head>
+    <body>
+        <header>
+            <h1>Integration By Parts</h1>
+        </header>
+        <div class = 'text'>
+            <p1>Integration by parts is another very useful integration technique. U-Substitution or the simple power rule may not always be applicable, so integration by parts can be useful in some of those other problems. Examples are provided below.</p1><br><br>
+            <p1>Form: Integration by parts will always be solved like this: \[uv - ∫vdu\]</p1><br>
+            <p1>LIPET method: Whatever term occurs first in LIPET becomes your "u" term, while the other term becomes your "dv" term".<br><br><strong>L</strong>ogarithm<br><strong>I</strong>nverse trig function<br><strong>P</strong>olynomial<br><strong>E</strong>xponential<br><strong>T</strong>rig function<br></p1><br>
+        </div>
+        <div class = 'text'>
+            <p1><strong>Steps:</strong><br>1. Use the LIPET rule to decide which term to make your "u" and what term to make your "dv"<br> 2. Take the derivative of the "u" term, creating the "du" term. Take the integral of the "dv" term, creating the "v" term<br>3. Plug the terms into the form shown above<br>4. Repeat steps 1-3 if further integration is needed. I suggest to use different variables other than "u" and "v" to not get confused</p1><br><br><br>
+        </div>
+        <div class = 'container'>
+            <p>
+                <strong>Question 1:</strong>
+                 \[∫xln(x)\]
+            </p>
+            <div class = 'but'><button onclick = "document.location='ByParts1.jpeg'">Click for Solution</button></div>
+        </div>
+        <div class = 'container'>
+            <p>
+                <strong>Question 2:</strong>
+                 \[∫x4^x\]
+            </p>
+            <div class = 'but'><button onclick = "document.location='ByParts2.jpeg'">Click for Solution</button></div>
+        </div>
+        <div class = 'container'>
+            <p>
+                <strong>Question 3:</strong>
+                 \[∫x^2e^{3x}\]
+            </p>
+            <div class = 'but'><button onclick = "document.location='ByParts3.jpeg'">Click for Solution</button></div>
+        </div>
+    </body>
+</html>
