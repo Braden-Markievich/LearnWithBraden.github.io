@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Growth Rate of Limits</title>
+        <link rel="stylesheet" href="pages.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <script id="MathJax-script" async
+            src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+        </script>
+        <div class = "drop">
+            <a href = 'Intro.html'><button class = 'mainmenu'>Home Page</button></a>
+        </div>
+    </head>
+    <body>
+        <header>
+            <h1>Growth Rate of Limits with L'Hopital's Rule</h1>
+        </header>
+        <div class = 'text'>
+            <p1>When given a limit that approaches infinity, a very efficient way to analyze what value it approaches is by utilizing growth rates. I have listed the order of dominance of growth rates below. If the more dominant term is on the numerator, it will go to infinity. If the dominant term is on the denominator, it will go to zero. If there is a dominant term on the numerator and denominator, the approached value will be a constant.</p1><br><br>
+            <p1><strong>Growth Rate</strong> (least dominant to most dominant): \[ln(x) << x^n << x^m << a^x << b^x\]</p1><br><br>
+            <p1><strong>L'Hopital's Rule:</strong> Sometimes a limit will be in the forms of:  \[∞/∞ , 0/0\]  </p1>
+            <p1>When this happens, we can use L'Hopital's Rule to evaluate the limit. All it is to take the derivative of both the numerator and denominator until it is either no longer in that form or you can evaluate it with growth rates. Question 1 below is an example of L'Hopital's Rule.</p1><br><br>
+        </div>
+        <div class = 'text'>
+            <p1><strong>Steps:</strong><br>1. Determine if you will have to perform L'Hopital's Rule<br>2. If L'Hopital's Rule is neccesary, execute it<br>3. If you do not need to perform L'Hopital's Rule, determine the dominant term on the numerator and denominator, and compare the two according to the Growth Rates order shown above</p1><br><br><br>
+        </div>
+        <div class = 'container'>
+            <p>
+                <strong>Question 1:</strong>
+                \[\lim _{x\to \infty } {ln(x^2) \over ln(x)}\]
+            </p>
+            <div class = 'but'><button onclick = "document.location='GrowthRate1.jpeg'">Click for Solution</button></div>
+        </div>
+        <div class = 'container'>
+            <p>
+                <strong>Question 2:</strong>
+                 \[\lim _{x\to \infty } {e^{-x} \over 3^x}\]
+            </p>
+            <div class = 'but'><button onclick = "document.location='GrowthRate2.jpeg'">Click for Solution</button></div>
+        </div>
+        <div class = 'container'>
+            <p>
+                <strong>Question 3:</strong>
+                 \[\lim _{x\to \infty } {2^x \over x^2}\]
+            </p>
+            <div class = 'but'><button onclick = "document.location='GrowthRate3.jpeg'">Click for Solution</button></div>
+        </div>
+        <div class = 'container'>
+            <p>
+                <strong>Question 4:</strong>
+                 \[\lim _{x\to \infty } {{e^{x}+e^{-2x}+20^x+ln(4x)} \over {x^{40000}-108^{-x}+6*10^x}}\]
+            </p>
+            <div class = 'but'><button onclick = "document.location='GrowthRate4.jpeg'">Click for Solution</button></div>
+        </div>
+    </body>
+</html>
