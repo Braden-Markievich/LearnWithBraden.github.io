@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Taylor Polynomials</title>
+        <link rel="stylesheet" href="pages.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <script id="MathJax-script" async
+            src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+        </script>
+        <div class = "drop">
+            <a href = 'Intro.html'><button class = 'mainmenu'>Home Page</button></a>
+        </div>
+    </head>
+    <body>
+        <header>
+            <h1>Taylor Polynomials</h1>
+        </header>
+        <div class = 'text'>
+            <p1>Utilizing taylor polynomials is an effective way to approximate functions at a certain point. The higher degree you make your taylor polynomial, the more accurate your answer will be compared to the actual answer you could compute on a calculator. </p1><br><br>
+        </div>
+        <div class = 'text'>
+            <p1><strong>Steps:</strong><br>1. Compute the derivatives of the given function, meaning solve up to the nth derivative when solving an nth-degree taylor polynomial (for second degree polynomial, solve up to second derivative)<br> 2. Plug in the given x value into each derivative<br>3. Plug the values you computed into the given form below</p1><br><br>
+            <p1><strong>Form:</strong>\[T_n\left(x\right) = f(x) + f^1(x)(x-a) + {f^2(x)/2}(x-a)^2 +... {f^n(x)/n!}(x-a)^n\]</p1><br><br><br>
+        </div>
+        <div class = 'container'>
+            <p>
+                <strong>Question 1:</strong>
+                 \[f(x) = x^{1/2},T_2\left(4\right)\]
+            </p>
+            <div class = 'but'><button onclick = "document.location='TaylorPoly1.jpeg'">Click for Solution</button></div>
+        </div>
+        <div class = 'container'>
+            <p>
+                <strong>Question 2:</strong>
+                \[f(x) = sin(x),T_2\left(0\right)\]
+            </p>
+            <div class = 'but'><button onclick = "document.location='TaylorPoly2.jpeg'">Click for Solution</button></div>
+        </div>
+        <div class = 'container'>
+            <p>
+                <strong>Question 3:</strong>
+                \[f(x) = cos(x),T_2\left(\pi/4\right)\]
+            </p>
+            <div class = 'but'><button onclick = "document.location='TaylorPoly3.jpeg'">Click for Solution</button></div>
+        </div>
+    </body>
+</html>
