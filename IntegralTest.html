@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Integral Test</title>
+        <link rel="stylesheet" href="pages.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <script id="MathJax-script" async
+            src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+        </script>
+        <div class = "drop">
+            <a href = 'Intro.html'><button class = 'mainmenu'>Home Page</button></a>
+        </div>
+    </head>
+    <body>
+        <header>
+            <h1>Integral Test</h1>
+        </header>
+        <div class = 'text'>
+            <p1>There are many different tests to tell if a series converges or diverges. The integral test is one way to do so. As long as <strong>1)</strong> The series is decreasing as it approaches infinity, and <strong>2)</strong> The series remains positive, you can perform the integral test. Once those two conditions are met, perform as if the series is just an improper integral, and evaluate it and see if it converges or diverges.</p1><br><br>
+        </div>
+        <div class = 'text'>
+            <p1><strong>Steps:</strong><br>1. Check if terms of the series decrease as the series approaches infinity<br>2. Check if terms of the series remain positive as the series approaches infinity<br>3. If both steps 1 and 2 check out, treat the series as an improper integral, and evaluate it out</p1><br><br><br>
+        </div>
+        <div class = 'container'>
+            <p>
+                <strong>Question 1:</strong>
+                \[\sum _{n=1}^{\infty }\:{1 \over nln(n)}\]
+            </p>
+            <div class = 'but'><button onclick = "document.location='IntegralTest1.jpeg'">Click for Solution</button></div>
+        </div>
+        <div class = 'container'>
+            <p>
+                <strong>Question 2:</strong>
+                \[\sum _{n=1}^{\infty }\:{1 \over n^2}\]
+            </p>
+            <div class = 'but'><button onclick = "document.location='IntegralTest2.jpeg'">Click for Solution</button></div>
+        </div>
+        <div class = 'container'>
+            <p>
+                <strong>Question 3:</strong>
+                \[\sum _{n=1}^{\infty }\:{{15n^2+48} \over 5n^3+48n}\]
+            </p>
+            <div class = 'but'><button onclick = "document.location='IntegralTest3.jpeg'">Click for Solution</button></div>
+        </div>
+    </body>
+</html>
