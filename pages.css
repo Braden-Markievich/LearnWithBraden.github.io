@@ -82,3 +82,9 @@ header {
 .but {
     background-color: thistle;
 }
+.thanks {
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Trebuchet MS';
+    padding: 10px;
+}
