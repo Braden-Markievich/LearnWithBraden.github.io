@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Converting to Polar Coordinates</title>
+        <link rel="stylesheet" href="pages.css">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <script id="MathJax-script" async
+            src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+        </script>
+        <div class = "drop">
+            <a href = 'Intro.html'><button class = 'mainmenu'>Home Page</button></a>
+        </div>
+    </head>
+    <body>
+        <header>
+            <h1>Converting to Polar Coordinates</h1>
+        </header>
+        <div class = 'text'>
+            <p1>Everyone knows about traditional (x,y) coordinates and how to apply them. Well, another useful way to chart coordinates is by using polar notation. In polar notation, the format is (r,θ), where r is the distance the point is from the origin, and θ is the angle the point makes with the positive x-axis (understanding the unit circle is helpful here, here is a page from <a href = 'https://www.mathsisfun.com/geometry/unit-circle.html' target="_blank">Math is Fun</a> explaining it). To convert from a standard (x,y) coordinate to a polar (r,θ) coordinate, I have listed steps and examples below.</p1><br><br>
+        </div>
+        <div class = 'text'>
+            <p1><strong>Steps:</strong><br>1. Find the r value by plugging the x and y values into this form: \[r = \sqrt{\left(x\right)^2+\left(y\right)^2}\]<br>2. Determine which quadrant the coordinate is in<br>3. If |x| = |y|, then θ is either π/4, 3π/4, 5π/4, 7π/4, depending on the quadrant it lies in<br>4. If |x| and |y| are not equal, then the θ value is arctan(y/x) if the coordinate is in the <strong>I or IV quadrants</strong>, or arctan(y/x) + π if the coordinate is in the <strong>II or III quadrants</strong>.</p1><br><br><br>
+            <p1>Convert the following (x,y) pairs to polar coordinates:</p1><br>
+        </div>
+        <div class = 'container'>
+            <p>
+                <strong>Question 1:</strong>
+                \[(4, -4)\]
+            </p>
+            <div class = 'but'><button onclick = "document.location='Polar1.jpeg'">Click for Solution</button></div>
+        </div>
+        <div class = 'container'>
+            <p>
+                <strong>Question 2:</strong>
+                \[(-2,-5)\]
+            </p>
+            <div class = 'but'><button onclick = "document.location='Polar2.jpeg'">Click for Solution</button></div>
+        </div>
+        <div class = 'container'>
+            <p>
+                <strong>Question 3:</strong>
+                \[(0, 4)\]
+            </p>
+            <div class = 'but'><button onclick = "document.location='Polar3.jpeg'">Click for Solution</button></div>
+        </div>
+    </body>
+</html>

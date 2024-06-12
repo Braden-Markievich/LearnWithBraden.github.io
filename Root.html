@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Root Test</title>
+        <link rel="stylesheet" href="pages.css">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <script id="MathJax-script" async
+            src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+        </script>
+        <div class = "drop">
+            <a href = 'Intro.html'><button class = 'mainmenu'>Home Page</button></a>
+        </div>
+    </head>
+    <body>
+        <header>
+            <h1>Root Test</h1>
+        </header>
+        <div class = 'text'>
+            <p1>Another way to determine if a series converges or diverges is with the root test. With this test, you really only want to use this when something in the series is being raised to the power of n. Once you have determined that either the whole series or a part of it is being raised to the power of n, you can raise the whole series to the power of <strong>1/n</strong>. Once you do that, you take the limit of the series while being raised to the power of 1/n. Rules for determining if its convergent or divergent depends on the limit value, which I have included the rules below, as well as examples.</p1><br><br>
+            <p1>Limit < 1: Series <strong>converges</strong><br>Limit > 1: Series <strong>diverges</strong><br>Limit = 1: Inconclusive (use another test)</p1><br><br>
+        </div>
+        <div class = 'text'>
+            <p1><strong>Steps:</strong><br>1. Determine if root test is applicable (series or term in series is raised to power of n)<br>2. Raise the entire series to the power of 1/n<br>3. Simplify the series, and take the limit of the series<br>4. Once you have the value of the limit, check above steps for whether it converges or diverges</p1><br><br><br>
+        </div>
+        <div class = 'container'>
+            <p>
+                <strong>Question 1:</strong>
+                \[\sum _{n=1}^{\infty }\:{({n \over 6n+3})}^n\]
+            </p>
+            <div class = 'but'><button onclick = "document.location='Root1.jpeg'">Click for Solution</button></div>
+        </div>
+        <div class = 'container'>
+            <p>
+                <strong>Question 2:</strong>
+                \[\sum _{n=1}^{\infty }\:{{(arctan(n))}^n}\]
+            </p>
+            <div class = 'but'><button onclick = "document.location='Root2.jpeg'">Click for Solution</button></div>
+        </div>
+        <div class = 'container'>
+            <p>
+                <strong>Question 3:</strong>
+                \[\sum _{n=1}^{\infty }\:{({ln(n) \over 4ln(n)+5})^n}\]
+            </p>
+            <div class = 'but'><button onclick = "document.location='Root3.jpeg'">Click for Solution</button></div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Limit Comparison Test</title>
+        <link rel="stylesheet" href="pages.css">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <script id="MathJax-script" async
+            src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+        </script>
+        <div class = "drop">
+            <a href = 'Intro.html'><button class = 'mainmenu'>Home Page</button></a>
+        </div>
+    </head>
+    <body>
+        <header>
+            <h1>Limit Comparison Test</h1>
+        </header>
+        <div class = 'text'>
+            <p1>Another way to determine if a series converges or diverges is with the limit comparison test. With this test, you create a series that you can quickly evaluate that is very similar to the one provided, but it's either greater or less than the provided one, given that both series are positive. Once you have created a new series, take the limit of the <strong>original</strong> series and divide it by the <strong>new</strong> series. If the final answer for the limit is not equal to zero and finite, then the two series will perform the same, so you can evaluate the new series and it will be the same answer for the original series. Examples are provided below.</p1><br><br>
+        </div>
+        <div class = 'text'>
+            <p1><strong>Steps:</strong><br>1. Create a similar series to the original series<br>2. Take the limit of the original series divided by the new series<br>3. If limit is finite and non-zero, the two series act the same, so you can evaluate the new series.</p1><br><br><br>
+        </div>
+        <div class = 'container'>
+            <p>
+                <strong>Question 1:</strong>
+                \[\sum _{n=2}^{\infty }\:{1 \over n^3 -1}\]
+            </p>
+            <div class = 'but'><button onclick = "document.location='LCT1.jpeg'">Click for Solution</button></div>
+        </div>
+        <div class = 'container'>
+            <p>
+                <strong>Question 2:</strong>
+                \[\sum _{n=2}^{\infty }\:{{n^3 + 14n} \over 4n^4 +12n^2}\]
+            </p>
+            <div class = 'but'><button onclick = "document.location='LCT2.jpeg'">Click for Solution</button></div>
+        </div>
+        <div class = 'container'>
+            <p>
+                <strong>Question 3:</strong>
+                \[\sum _{n=2}^{\infty }\:{1 \over n^{1/2}+4}\]
+            </p>
+            <div class = 'but'><button onclick = "document.location='LCT3.jpeg'">Click for Solution</button></div>
+        </div>
+    </body>
+</html>
